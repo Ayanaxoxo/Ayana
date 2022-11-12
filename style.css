@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(238, 207, 230);
+    border: 3px solid blueviolet;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    border: 3px solid blueviolet;
+    border-radius: 20px 40px;
+}
+
+h2{
+    color: blueviolet;
+}
+b{
+    color: rgb(3, 14, 14);
+    font-weight: bold;
+}
+.main{
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+    max-width: 320px;
+    transition: 2s;
+}
+.links:hover{
+    background-color: aqua (113,204,204);
+    transition: 2s;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+a:hover{
+    color: blueviolet;
+}
